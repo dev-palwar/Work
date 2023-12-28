@@ -1,9 +1,11 @@
-import Image from "next/image";
+import { Button } from "@/Components/L2/Button";
 
 export default function Home() {
   return (
-    <div className="text-center p-5 w-[50%] m-auto text-xl">
-      Hello nextjs
+    <div className="p-8 w-[50%] m-auto flex justify-center h-[100vh] items-center">
+      <Button variant={"default"}>
+        Explore now
+      </Button>
     </div>
   );
 }
